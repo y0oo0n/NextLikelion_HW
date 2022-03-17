@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+body {
+    height: 100vh;
+    background-image: url('+/likelion hp.png');
+    background-position: center;
+    background-repeat : repeat;
+    background-size : cover;
+    width: 100%;
+
+    background-color: #F2F2F2;  
+    text-align: center;  
+  }
+
+  /* Header */
+    .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1px 0;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  .header li {
+    display: inline-block;
+    padding: 1px;
+  }
+  
+  .header a {
+    color: #ffffff;
+  }
+
+  
+  #banner {
+    box-align: center;
+    height: 18%;
+    width: 100%;
+    border: 5px solid white;
+    position: center relative;
+    top: 00px;
+    margin: 50px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(238, 156, 49);
+    background-color: white;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 20px 30px;
+    text-align: center;
+    text-shadow: black 2px 2px 2px
+  }
+
+  li {
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    line-height: 50px;
+    text-indent: 15px;
+    text-shadow: black 2px 2px 2px;
+    font-weight: 600;
+  }
+
+  p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    text-indent: 15px;
+    text-shadow: black 2px 2px 2px;
+    font-weight: 600;
+  }
+
+  .basic-info {
+    position: absolute;
+    margin: 0 auto;
+    ;
+  }
+
+  #more {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    text-indent: 15px;
+    text-shadow: black 2px 2px 2px;
+    font-weight: 600;
+  }
+
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .submit a {
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    margin: 10px;
+  }
+
+  .submit a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
